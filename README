@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4369
+
+This plugin is meant to help you respecting the Linux kernel coding style, described at:
+http://www.kernel.org/doc/Documentation/CodingStyle
+
+It will automatically apply known rules to kernel related files, such as .c, .h, Kconfig and patch files.
+The main rules are about indentation and syntax error highlighting (like exceeding 80 chars).
+
+If you have any comments, fixes or requests, feel free to contact me or send me a patch.
+The development also takes place at https://github.com/v0n/vim-addon-linux-coding-style.
