@@ -1,5 +1,5 @@
 " Vim plugin to fit the Linux kernel coding style and help kernel development
-" Last Change:  2013 Mars 12
+" Last Change:  2014 Sep 25
 " Maintainer:   Vivien Didelot <vivien.didelot@savoirfairelinux.com>
 " License:      Distributed under the same terms as Vim itself.
 "
@@ -26,12 +26,13 @@ augroup END
 function s:LinuxFormatting()
     setlocal tabstop=8
     setlocal shiftwidth=8
+    setlocal softtabstop=8
     setlocal textwidth=80
     setlocal noexpandtab
 
     setlocal cindent
     setlocal formatoptions=tcqlron
-    setlocal cinoptions=:0,l1,t0,g0
+    setlocal cinoptions=:0,l1,t0,g0,(0
 endfunction
 
 function s:LinuxKeywords()
